@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Simple Simon</title>
+	<link rel='stylesheet' type='text/css' href='css/simonsays.css'></link>
+	<audio id="Ckeysound">
+		<source src="sounds/Ckey.mp3" type="audio/mpeg">
+		</audio>
+	<audio id="Csharpkeysound">
+		<source src="sounds/Csharpkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Dkeysound">
+		<source src="sounds/Dkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ebkeysound">
+		<source src="sounds/Ebkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ekeysound">
+		<source src="sounds/Ekey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Fkeysound">
+		<source src="sounds/Fkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Fsharpkeysound">
+		<source src="sounds/Fsharpkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Gkeysound">
+		<source src="sounds/Gkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Abkeysound">
+		<source src="sounds/Abkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Akeysound">
+		<source src="sounds/Akey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Bbkeysound">
+		<source src="sounds/Bbkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Bkeysound">
+		<source src="sounds/Bkey.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ckey2sound">
+		<source src="sounds/Ckey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Csharpkey2sound">
+		<source src="sounds/Csharpkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Dkey2sound">
+		<source src="sounds/Dkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ebkey2sound">
+		<source src="sounds/Ebkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ekey2sound">
+		<source src="sounds/Ekey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Fkey2sound">
+		<source src="sounds/Fkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Fsharpkey2sound">
+		<source src="sounds/Fsharpkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Gkey2sound">
+		<source src="sounds/Gkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Abkey2sound">
+		<source src="sounds/Abkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Akey2sound">
+		<source src="sounds/Akey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Bbkey2sound">
+		<source src="sounds/Bbkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Bkey2sound">
+		<source src="sounds/Bkey2.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ckey3sound">
+		<source src="sounds/Ckey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Csharpkey3sound">
+		<source src="sounds/Csharpkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Dkey3sound">
+		<source src="sounds/Dkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ebkey3sound">
+		<source src="sounds/Ebkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Ekey3sound">
+		<source src="sounds/Ekey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Fkey3sound">
+		<source src="sounds/Fkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Fsharpkey3sound">
+		<source src="sounds/Fsharpkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Gkey3sound">
+		<source src="sounds/Gkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Abkey3sound">
+		<source src="sounds/Abkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Akey3sound">
+		<source src="sounds/Akey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Bbkey3sound">
+		<source src="sounds/Bbkey3.mp3" type="audio/mpeg">
+	</audio>
+	<audio id="Bkey3sound">
+		<source src="sounds/Bkey3.mp3" type="audio/mpeg">
+	</audio>
+</head>
+<body>
+	<div id=container>
+	<div id='pianoBody'>
+		<div id='logo-box'></div>
+		<div id="left-box"></div>
+		<div id='top-box'>
+		</div>
+		<div id='keys'>
+			<div id='Ckey'  class="keywhite key C"  accessKey='0'></div>
+			<div id='Csharpkey'  class="keyblack key H" accessKey='1'></div>
+			<div id='Dkey'  class="keywhite key D"  accessKey='2'></div>
+			<div id='Ebkey'  class="keyblack key" accessKey='3'></div>
+			<div id='Ekey'  class="keywhite key E"  accessKey='4'></div>
+			<div id='Fkey'  class="keywhite key F"  accessKey='5'></div>
+			<div id='Fsharpkey'  class="keyblack key H" accessKey='6'></div>
+			<div id='Gkey'  class="keywhite key G" accessKey='7'></div>
+			<div id='Abkey'  class="keyblack key H" accessKey='8'></div>
+			<div id='Akey'  class="keywhite key A"  accessKey='9'></div>
+			<div id='Bbkey'  class="keyblack key H" accessKey='10'></div>
+			<div id='Bkey'  class="keywhite key B"  accessKey='11'></div>
+			<div id='Ckey2'  class="keywhite key C" accessKey='12'></div>
+			<div id='Csharpkey2'  class="keyblack key H" accessKey='13'></div>
+			<div id='Dkey2'  class="keywhite key D" accessKey='14'></div>
+			<div id='Ebkey2'  class="keyblack key H" accessKey=''15></div>
+			<div id='Ekey2'  class="keywhite key E" accessKey='16'></div>
+			<div id='Fkey2'  class="keywhite key F" accessKey='17'></div>
+			<div id='Fsharpkey2'  class="keyblack key H" accessKey='18'></div>
+			<div id='Gkey2'  class="keywhite key G" accessKey='19'></div>
+			<div id='Abkey2'  class="keyblack key H" accessKey='20'></div>
+			<div id='Akey2'  class="keywhite key A" accessKey='21'></div>
+			<div id='Bbkey2'  class="keyblack key H" accessKey='22'></div>
+			<div id='Bkey2'  class="keywhite key B" accessKey='23'></div>
+			<div id='Ckey3'  class="keywhite key C" accessKey='24'></div>
+			<div id='Csharpkey3'  class="keyblack key H" accessKey='25'></div>
+			<div id='Dkey3'  class="keywhite key D" accessKey='26'></div>
+			<div id='Ebkey3'  class="keyblack key H" accessKey='27'></div>
+			<div id='Ekey3'  class="keywhite key E" accessKey='28'></div>
+			<div id='Fkey3'  class="keywhite key F" accessKey='29'></div>
+			<div id='Fsharpkey3'  class="keyblack key H" accessKey='30'></div>
+			<div id='Gkey3'  class="keywhite key G" accessKey='31'></div>
+			<div id='Abkey3'  class="keyblack key H" accessKey='32'></div>
+			<div id='Akey3'  class="keywhite key A" accessKey='33'></div>
+			<div id='Bbkey3'  class="keyblack key H" accessKey='34'></div>
+			<div id='Bkey3'  class="keywhite key B" accessKey='35'></div>
+		</div>
+		<div id='bottomBar'></div>
+		<div id="right-box"></div>
+	</div>
+	</div>
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src='js/simonsays.js'></script>
+	<script src="//cdn.jsdelivr.net/jquery.color-animation/1/mainfile"></script>
+
+</body>
+</html>

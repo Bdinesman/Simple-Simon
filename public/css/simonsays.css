@@ -1,0 +1,223 @@
+	body{
+		position: absolute;
+		width:90%;
+		height:100%;
+		background-image:url('/img/cosmic-deer.png');
+		background-position: bottom left;
+		overflow:hidden;
+	}
+	#container{
+		min-width: 900px;
+		min-height: 900px;
+	}
+	#pianoBody{
+		position:fixed;
+		border:1px solid black;
+		width:60%;
+		height:33%;
+		left:16.8%;
+		top:33%;
+		transform:rotate(-30deg);
+		min-width: 730px;
+		min-height: 224px;
+		background-color:#39b7ba;
+	}
+	#logo-box{
+		position: relative;
+		border:1px solid black;
+		left:2%;
+		width:96%;
+		height:40%;
+		background-color: #39b7ba
+	}		
+	#left-box{
+		position: relative;
+		border:1px solid black;
+		width:2%;
+		height:100%;
+		top:-41.3%;
+		background:linear-gradient(to left, rgb(39, 152, 152) 10%,rgba(0,99,102,0.9));
+	}
+	#top-box{
+		position: relative;
+		border:1px solid black;
+		left:2%;
+		top:-115%;
+		width:96%;
+		height:10%;
+		background:linear-gradient(to bottom,#279a9a 10%, rgba(19, 78, 78, 1));
+	}
+	#keys{
+		position: relative;
+		border:1px solid black;
+		left:4%;
+		top:-115%;
+		width:96%;
+		height:60%;
+		background-color:#fffffd;
+	}
+	.keywhite{
+		position:relative;
+		z-index:0;
+		width:4.67%;
+		height:100%;
+		border:1px solid black;
+		float:left;
+		background-color:#fffffd;
+		clear:none;
+	}
+	.keyblack{
+		position:relative;
+		z-index: 1;
+		width:3.27%;
+		height:75%;
+		border:1px solid black;
+		float:left;
+		background-color:black;
+		color:white;
+	}
+	#Ckey{
+		left:-0%;
+	}
+	#Csharpkey{
+		left:-1.5%;
+	}
+	#Dkey{
+		left:-3.6%;
+	}
+	#Ebkey{
+		left:-5.4%;
+	}
+	#Ekey{
+		left:-7.4%;
+	}		
+	#Fkey{
+		left:-7.6%;
+	}
+	#Fsharpkey{
+		left:-9.4%;
+	}
+	#Gkey{
+		left:-11.4%;
+	}
+	#Akey{
+		left:-15%;
+	}
+	#Abkey{
+		left:-13.2%;
+	}
+	#Bkey{
+		left:-19%;
+	}
+	#Bbkey{
+		left:-17.2%;
+	}
+	#Ckey2{
+		left:-19%;
+	}
+	#Csharpkey2{
+		left:-21%;
+	}
+	#Dkey2{
+		left:-23%;
+	}
+	#Ebkey2{
+		left:-25%;
+	}
+	#Ekey2{
+		left:-27%;
+	}
+	#Fkey2{
+		left:-27%;
+	}
+	#Fsharpkey2{
+		left:-29%;
+	}
+	#Gkey2{
+		left:-31%;
+	}
+	#Abkey2{
+		left:-33%;
+	}
+	#Akey2{
+		left:-35%;
+	}
+	#Bbkey2{
+		left:-37%;
+	}
+	#Bkey2{
+		right:-60%;
+		top:-101.5%;
+	}
+	#Ckey3{
+		right:-59.7%;
+		top:-101.5%;
+	}
+	#Csharpkey3{
+		right:-58%;
+		top:-101.5%;
+	}
+	#Dkey3{
+		right:-56%;
+		top:-101.5%;
+	}
+	#Ebkey3{
+		right:-54%;
+		top:-101.5%;
+	}
+	#Ekey3{
+		right:-52%;
+		top:-101.5%;
+	}		
+	#Fkey3{
+		right:-52%;
+		top:-101.5%;
+	}
+	#Fsharpkey3{			
+		right:-50%;
+		top:-101.5%;
+	}
+	#Gkey3{
+		right:-48%;
+		top:-101.5%;	
+	}
+	#Akey3{
+	}
+	#Abkey3{
+		right:-46%;
+		top:-101.5%;
+	}
+	#Bkey3{
+		right:-35%;
+		top:-101.5%;
+	}
+	#Bkey3{
+		right:-40.3%;
+		top:-101.5%;
+	}
+	#Akey3{
+		right:-44%;
+		top:-101.5%;
+	}
+	#Bbkey3{
+		right:-41.5%;
+		top:-101.5%;
+	}
+	#bottomBar{
+		position: relative;
+		border:1px solid black;
+		top:-114.8%;
+		left:2%;
+		width:96%;
+		height:1%;
+		background-color:black;
+	}
+	#right-box{
+		position: relative;
+		border:1px solid black;
+		width:2%;
+		left:98%;
+		top:-215.8%;
+		height:100%;
+		background:linear-gradient(to right, rgb(39, 152, 152) 10%,rgba(0,99,102,0.9))
+	}
